@@ -16,6 +16,26 @@
 		585C89AA293F45B500CACC2E /* JetbrainsProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89A9293F45B500CACC2E /* JetbrainsProjectsTests.swift */; };
 		585C89B4293F45B500CACC2E /* JetbrainsProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89B3293F45B500CACC2E /* JetbrainsProjectsUITests.swift */; };
 		585C89B6293F45B500CACC2E /* JetbrainsProjectsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89B5293F45B500CACC2E /* JetbrainsProjectsUITestsLaunchTests.swift */; };
+		585C8A12293F654E00CACC2E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89F8293F654E00CACC2E /* Constants.swift */; };
+		585C8A13293F654E00CACC2E /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89F9293F654E00CACC2E /* UITableViewCellExtension.swift */; };
+		585C8A14293F654E00CACC2E /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89FA293F654E00CACC2E /* JSONFileReader.swift */; };
+		585C8A15293F654E00CACC2E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89FB293F654E00CACC2E /* UIViewExtension.swift */; };
+		585C8A16293F654E00CACC2E /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89FC293F654E00CACC2E /* DynamicValue.swift */; };
+		585C8A17293F654E00CACC2E /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89FD293F654E00CACC2E /* TableViewModel.swift */; };
+		585C8A18293F654E00CACC2E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89FE293F654E00CACC2E /* DateFormatter.swift */; };
+		585C8A19293F654E00CACC2E /* GenericObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C89FF293F654E00CACC2E /* GenericObservable.swift */; };
+		585C8A1A293F654E00CACC2E /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A02293F654E00CACC2E /* ParameterEncoder.swift */; };
+		585C8A1B293F654E00CACC2E /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A03293F654E00CACC2E /* URLParameterEncoder.swift */; };
+		585C8A1C293F654E00CACC2E /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A04293F654E00CACC2E /* JSONParameterEncoder.swift */; };
+		585C8A1D293F654E00CACC2E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A06293F654E00CACC2E /* APIError.swift */; };
+		585C8A1E293F654E00CACC2E /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A07293F654E00CACC2E /* HTTPTask.swift */; };
+		585C8A1F293F654E00CACC2E /* MockAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A08293F654E00CACC2E /* MockAPIRouter.swift */; };
+		585C8A20293F654E00CACC2E /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A09293F654E00CACC2E /* APIRouter.swift */; };
+		585C8A21293F654E00CACC2E /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A0A293F654E00CACC2E /* APIEndPoint.swift */; };
+		585C8A22293F654E00CACC2E /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A0B293F654E00CACC2E /* NetworkLogger.swift */; };
+		585C8A23293F654E00CACC2E /* APIQueryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A0C293F654E00CACC2E /* APIQueryParam.swift */; };
+		585C8A24293F654E00CACC2E /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A0E293F654E00CACC2E /* APIConfig.swift */; };
+		585C8A25293F654E00CACC2E /* APIProjectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C8A10293F654E00CACC2E /* APIProjectsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +69,26 @@
 		585C89AF293F45B500CACC2E /* JetbrainsProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetbrainsProjectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		585C89B3293F45B500CACC2E /* JetbrainsProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetbrainsProjectsUITests.swift; sourceTree = "<group>"; };
 		585C89B5293F45B500CACC2E /* JetbrainsProjectsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetbrainsProjectsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		585C89F8293F654E00CACC2E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		585C89F9293F654E00CACC2E /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		585C89FA293F654E00CACC2E /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
+		585C89FB293F654E00CACC2E /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		585C89FC293F654E00CACC2E /* DynamicValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		585C89FD293F654E00CACC2E /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		585C89FE293F654E00CACC2E /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		585C89FF293F654E00CACC2E /* GenericObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericObservable.swift; sourceTree = "<group>"; };
+		585C8A02293F654E00CACC2E /* ParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
+		585C8A03293F654E00CACC2E /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		585C8A04293F654E00CACC2E /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		585C8A06293F654E00CACC2E /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		585C8A07293F654E00CACC2E /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		585C8A08293F654E00CACC2E /* MockAPIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIRouter.swift; sourceTree = "<group>"; };
+		585C8A09293F654E00CACC2E /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		585C8A0A293F654E00CACC2E /* APIEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		585C8A0B293F654E00CACC2E /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		585C8A0C293F654E00CACC2E /* APIQueryParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIQueryParam.swift; sourceTree = "<group>"; };
+		585C8A0E293F654E00CACC2E /* APIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		585C8A10293F654E00CACC2E /* APIProjectsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProjectsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +139,10 @@
 		585C8991293F45B400CACC2E /* JetbrainsProjects */ = {
 			isa = PBXGroup;
 			children = (
+				585C8A00293F654E00CACC2E /* Networking */,
+				585C8A11293F654E00CACC2E /* Scenes */,
+				585C89F7293F654E00CACC2E /* Utils */,
+				585C89F5293F64E500CACC2E /* Shared */,
 				585C8992293F45B400CACC2E /* AppDelegate.swift */,
 				585C8994293F45B400CACC2E /* SceneDelegate.swift */,
 				585C8996293F45B400CACC2E /* ViewController.swift */,
@@ -125,6 +169,86 @@
 				585C89B5293F45B500CACC2E /* JetbrainsProjectsUITestsLaunchTests.swift */,
 			);
 			path = JetbrainsProjectsUITests;
+			sourceTree = "<group>";
+		};
+		585C89F5293F64E500CACC2E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		585C89F7293F654E00CACC2E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				585C89F8293F654E00CACC2E /* Constants.swift */,
+				585C89F9293F654E00CACC2E /* UITableViewCellExtension.swift */,
+				585C89FA293F654E00CACC2E /* JSONFileReader.swift */,
+				585C89FB293F654E00CACC2E /* UIViewExtension.swift */,
+				585C89FC293F654E00CACC2E /* DynamicValue.swift */,
+				585C89FD293F654E00CACC2E /* TableViewModel.swift */,
+				585C89FE293F654E00CACC2E /* DateFormatter.swift */,
+				585C89FF293F654E00CACC2E /* GenericObservable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		585C8A00293F654E00CACC2E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				585C8A01293F654E00CACC2E /* Encoding */,
+				585C8A05293F654E00CACC2E /* Shared */,
+				585C8A0D293F654E00CACC2E /* APIConfig */,
+				585C8A0F293F654E00CACC2E /* APIServices */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		585C8A01293F654E00CACC2E /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				585C8A02293F654E00CACC2E /* ParameterEncoder.swift */,
+				585C8A03293F654E00CACC2E /* URLParameterEncoder.swift */,
+				585C8A04293F654E00CACC2E /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		585C8A05293F654E00CACC2E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				585C8A06293F654E00CACC2E /* APIError.swift */,
+				585C8A07293F654E00CACC2E /* HTTPTask.swift */,
+				585C8A08293F654E00CACC2E /* MockAPIRouter.swift */,
+				585C8A09293F654E00CACC2E /* APIRouter.swift */,
+				585C8A0A293F654E00CACC2E /* APIEndPoint.swift */,
+				585C8A0B293F654E00CACC2E /* NetworkLogger.swift */,
+				585C8A0C293F654E00CACC2E /* APIQueryParam.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		585C8A0D293F654E00CACC2E /* APIConfig */ = {
+			isa = PBXGroup;
+			children = (
+				585C8A0E293F654E00CACC2E /* APIConfig.swift */,
+			);
+			path = APIConfig;
+			sourceTree = "<group>";
+		};
+		585C8A0F293F654E00CACC2E /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				585C8A10293F654E00CACC2E /* APIProjectsService.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		585C8A11293F654E00CACC2E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +382,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C8A22293F654E00CACC2E /* NetworkLogger.swift in Sources */,
 				585C8997293F45B400CACC2E /* ViewController.swift in Sources */,
+				585C8A24293F654E00CACC2E /* APIConfig.swift in Sources */,
+				585C8A20293F654E00CACC2E /* APIRouter.swift in Sources */,
 				585C8993293F45B400CACC2E /* AppDelegate.swift in Sources */,
+				585C8A14293F654E00CACC2E /* JSONFileReader.swift in Sources */,
+				585C8A13293F654E00CACC2E /* UITableViewCellExtension.swift in Sources */,
+				585C8A18293F654E00CACC2E /* DateFormatter.swift in Sources */,
+				585C8A23293F654E00CACC2E /* APIQueryParam.swift in Sources */,
+				585C8A15293F654E00CACC2E /* UIViewExtension.swift in Sources */,
+				585C8A1A293F654E00CACC2E /* ParameterEncoder.swift in Sources */,
+				585C8A1F293F654E00CACC2E /* MockAPIRouter.swift in Sources */,
 				585C8995293F45B400CACC2E /* SceneDelegate.swift in Sources */,
+				585C8A1D293F654E00CACC2E /* APIError.swift in Sources */,
+				585C8A1B293F654E00CACC2E /* URLParameterEncoder.swift in Sources */,
+				585C8A17293F654E00CACC2E /* TableViewModel.swift in Sources */,
+				585C8A19293F654E00CACC2E /* GenericObservable.swift in Sources */,
+				585C8A1E293F654E00CACC2E /* HTTPTask.swift in Sources */,
+				585C8A25293F654E00CACC2E /* APIProjectsService.swift in Sources */,
+				585C8A12293F654E00CACC2E /* Constants.swift in Sources */,
+				585C8A1C293F654E00CACC2E /* JSONParameterEncoder.swift in Sources */,
+				585C8A16293F654E00CACC2E /* DynamicValue.swift in Sources */,
+				585C8A21293F654E00CACC2E /* APIEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +496,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENVIRONMENT = DEV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -412,6 +557,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENVIRONMENT = PROD;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
