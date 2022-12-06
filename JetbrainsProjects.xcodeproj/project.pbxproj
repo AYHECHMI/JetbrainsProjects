@@ -247,8 +247,16 @@
 		585C8A11293F654E00CACC2E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				58A0B545293F6E6E00130C43 /* ProjectsList */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		58A0B545293F6E6E00130C43 /* ProjectsList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProjectsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
