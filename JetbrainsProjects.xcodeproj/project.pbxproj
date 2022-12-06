@@ -45,6 +45,12 @@
 		58A0B555293F6F3700130C43 /* ProjectsListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B54D293F6F3700130C43 /* ProjectsListDataSource.swift */; };
 		58A0B556293F6F3700130C43 /* ProjectsListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B54E293F6F3700130C43 /* ProjectsListConfigurator.swift */; };
 		58A0B559293F707F00130C43 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B558293F707F00130C43 /* Project.swift */; };
+		58A0B561293F903800130C43 /* ProjectDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B55B293F903800130C43 /* ProjectDetailsService.swift */; };
+		58A0B562293F903800130C43 /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B55C293F903800130C43 /* ProjectDetailsViewController.swift */; };
+		58A0B563293F903800130C43 /* ProjectDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B55D293F903800130C43 /* ProjectDetailsViewModel.swift */; };
+		58A0B564293F903800130C43 /* ProjectDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B55E293F903800130C43 /* ProjectDetailsConfigurator.swift */; };
+		58A0B565293F903800130C43 /* ProjectDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A0B55F293F903800130C43 /* ProjectDetails.storyboard */; };
+		58A0B566293F903800130C43 /* ProjectDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0B560293F903800130C43 /* ProjectDetailsWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +113,12 @@
 		58A0B54D293F6F3700130C43 /* ProjectsListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsListDataSource.swift; sourceTree = "<group>"; };
 		58A0B54E293F6F3700130C43 /* ProjectsListConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsListConfigurator.swift; sourceTree = "<group>"; };
 		58A0B558293F707F00130C43 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		58A0B55B293F903800130C43 /* ProjectDetailsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsService.swift; sourceTree = "<group>"; };
+		58A0B55C293F903800130C43 /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
+		58A0B55D293F903800130C43 /* ProjectDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewModel.swift; sourceTree = "<group>"; };
+		58A0B55E293F903800130C43 /* ProjectDetailsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsConfigurator.swift; sourceTree = "<group>"; };
+		58A0B55F293F903800130C43 /* ProjectDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProjectDetails.storyboard; sourceTree = "<group>"; };
+		58A0B560293F903800130C43 /* ProjectDetailsWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +278,7 @@
 		585C8A11293F654E00CACC2E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				58A0B55A293F903800130C43 /* ProjectDetails */,
 				58A0B545293F6E6E00130C43 /* ProjectsList */,
 			);
 			path = Scenes;
@@ -300,6 +313,19 @@
 				58A0B558293F707F00130C43 /* Project.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		58A0B55A293F903800130C43 /* ProjectDetails */ = {
+			isa = PBXGroup;
+			children = (
+				58A0B55B293F903800130C43 /* ProjectDetailsService.swift */,
+				58A0B55C293F903800130C43 /* ProjectDetailsViewController.swift */,
+				58A0B55D293F903800130C43 /* ProjectDetailsViewModel.swift */,
+				58A0B55E293F903800130C43 /* ProjectDetailsConfigurator.swift */,
+				58A0B55F293F903800130C43 /* ProjectDetails.storyboard */,
+				58A0B560293F903800130C43 /* ProjectDetailsWorker.swift */,
+			);
+			path = ProjectDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +434,7 @@
 			files = (
 				585C899F293F45B500CACC2E /* LaunchScreen.storyboard in Resources */,
 				585C899C293F45B500CACC2E /* Assets.xcassets in Resources */,
+				58A0B565293F903800130C43 /* ProjectDetails.storyboard in Resources */,
 				58A0B551293F6F3700130C43 /* ProjectCell.xib in Resources */,
 				585C899A293F45B400CACC2E /* Main.storyboard in Resources */,
 			);
@@ -438,15 +465,19 @@
 				585C8997293F45B400CACC2E /* ViewController.swift in Sources */,
 				585C8A24293F654E00CACC2E /* APIConfig.swift in Sources */,
 				58A0B556293F6F3700130C43 /* ProjectsListConfigurator.swift in Sources */,
+				58A0B561293F903800130C43 /* ProjectDetailsService.swift in Sources */,
 				585C8A20293F654E00CACC2E /* APIRouter.swift in Sources */,
+				58A0B562293F903800130C43 /* ProjectDetailsViewController.swift in Sources */,
 				585C8993293F45B400CACC2E /* AppDelegate.swift in Sources */,
 				585C8A14293F654E00CACC2E /* JSONFileReader.swift in Sources */,
 				585C8A13293F654E00CACC2E /* UITableViewCellExtension.swift in Sources */,
 				585C8A18293F654E00CACC2E /* DateFormatter.swift in Sources */,
 				58A0B552293F6F3700130C43 /* ProjectsListWorker.swift in Sources */,
+				58A0B564293F903800130C43 /* ProjectDetailsConfigurator.swift in Sources */,
 				585C8A23293F654E00CACC2E /* APIQueryParam.swift in Sources */,
 				585C8A15293F654E00CACC2E /* UIViewExtension.swift in Sources */,
 				585C8A1A293F654E00CACC2E /* ParameterEncoder.swift in Sources */,
+				58A0B563293F903800130C43 /* ProjectDetailsViewModel.swift in Sources */,
 				58A0B553293F6F3700130C43 /* ProjectsListViewModel.swift in Sources */,
 				585C8A1F293F654E00CACC2E /* MockAPIRouter.swift in Sources */,
 				585C8995293F45B400CACC2E /* SceneDelegate.swift in Sources */,
@@ -462,6 +493,7 @@
 				585C8A1C293F654E00CACC2E /* JSONParameterEncoder.swift in Sources */,
 				585C8A16293F654E00CACC2E /* DynamicValue.swift in Sources */,
 				585C8A21293F654E00CACC2E /* APIEndPoint.swift in Sources */,
+				58A0B566293F903800130C43 /* ProjectDetailsWorker.swift in Sources */,
 				58A0B555293F6F3700130C43 /* ProjectsListDataSource.swift in Sources */,
 				58A0B550293F6F3700130C43 /* ProjectCell.swift in Sources */,
 				58A0B54F293F6F3700130C43 /* ProjectsListViewController.swift in Sources */,

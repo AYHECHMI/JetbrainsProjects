@@ -49,11 +49,22 @@
                     <navigationItem key="navigationItem" id="fdo-LC-TRu"/>
                     <connections>
                         <outlet property="tableView" destination="jcA-Cx-Yxq" id="wH9-3f-KOP"/>
+                        <segue destination="ayT-7A-uRG" kind="show" identifier="ProjectDetailsViewController" id="hPg-hF-n0s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vxg-Ml-s8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="885" y="5"/>
+        </scene>
+        <!--ProjectDetailsViewController-->
+        <scene sceneID="pYf-g0-p0T">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ProjectDetailsViewController" storyboardName="ProjectDetails" referencedIdentifier="ProjectDetailsViewController" id="ayT-7A-uRG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Huy-OF-237"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rl6-1x-NoA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1639" y="5"/>
         </scene>
     </scenes>
     <resources>
