@@ -44,7 +44,6 @@ public class APIRouter<EndPoint: APIProtocol>: NetworkRouter {
         } else {
             self.performNetworkRequest(route, completion: completion)
         }
-        
     }
     
     private func returnMockFrom<N>(fileName: String,  completion: @escaping (Result<N, APIError>) -> Void) where N : Decodable {

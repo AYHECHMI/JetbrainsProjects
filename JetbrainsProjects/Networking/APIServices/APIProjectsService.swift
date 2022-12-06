@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum APIMoviesService {
+public enum APIProjectsService {
   case getProjectsList
 }
 
@@ -15,7 +15,7 @@ extension MockAPIProtocol {
   public var jsonFileName : String? { return nil }
 }
 
-extension APIMoviesService: APIProtocol {
+extension APIProjectsService: APIProtocol {
   
   var urlString: String {
     switch APIConfig.shared.environment {
@@ -32,7 +32,7 @@ extension APIMoviesService: APIProtocol {
   public var path: String? {
     switch self {
       case .getProjectsList:
-        return "/orgs/jetbrains/repos?page=1"
+        return "/orgs/jetbrains/repos"
     }
     
   }
